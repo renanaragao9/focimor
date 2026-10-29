@@ -5,6 +5,10 @@
   "upload_source_maps": true,
   "compatibility_date": "2026-10-28",
   "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "API_URL": "https://api-focimor.aragaolabs.com.br/api/v1",
+    "NEXT_PUBLIC_SITE_URL": "https://focimor.aragaolabs.com.br"
+  },
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
