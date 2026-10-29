@@ -24,7 +24,7 @@ function HeaderActions({ user }: { user: AuthUser | null }) {
       <span className="hidden sm:block">
         <ThemeToggle />
       </span>
-      <Button variant="ghost" className="hidden sm:inline-flex" asChild>
+      <Button variant="ghost" asChild>
         <Link href="/entrar">Entrar</Link>
       </Button>
       <Button asChild>
